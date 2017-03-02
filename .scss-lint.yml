@@ -1,0 +1,52 @@
+linters:
+  Indentation:
+    enabled: false
+  StringQuotes:
+    enabled: false
+  UrlQuotes:
+    enabled: false
+  DuplicateProperty:
+    enabled: true
+    ignore_consecutive:
+      - background
+      - transition
+  EmptyRule:
+    enabled: true
+  HexNotation:
+    style: lowercase
+  Indentation:
+    character: tab
+    width: 2
+  LeadingZero:
+    style: exclude_zero
+  MergeableSelector:
+    force_nesting: true
+  NameFormat:
+    convention: hyphenated_lowercase
+  NestingDepth:
+    max_depth: 3
+  PropertySpelling:
+    enabled: true
+  SingleLinePerSelector:
+    enabled: false
+  SpaceAfterPropertyColon:
+    enabled: true
+    style: one_space
+  SpaceBeforeBrace:
+    enabled: true
+  TrailingSemicolon:
+    enabled: true
+  TrailingZero:
+    enabled: true
+  UnnecessaryMantissa:
+    enabled: true
+  UnnecessaryParentReference:
+    enabled: true
+  UrlFormat:
+    enabled: true
+  UrlQuotes:
+    enabled: true
+  ZeroUnit:
+    enabled: true
+  VendorPrefix:
+    enabled: false
